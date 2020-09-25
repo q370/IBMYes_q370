@@ -5,7 +5,7 @@ on:
     branches: [ master ]
   schedule:
     - cron: '0 20 * * Sat'
-
+    - cron: '0 19 * * Wed'
 
 jobs:
   ibm-cloud-restart:
